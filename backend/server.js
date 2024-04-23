@@ -30,7 +30,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
 
 app.get("/", async (req, res) => {
-  res.send("API WORKING");
+  res.send("Server running");
 });
 
 // Start the server
