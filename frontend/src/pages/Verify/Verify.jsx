@@ -20,11 +20,11 @@ const Verify = () => {
       if (response.data.success) {
         navigate("/myOrders"); 
       } else {
-        navigate("/");
+        navigate("https://frontenddeliveryapp.netlify.app/");
       }
     } catch (error) {
       console.error("Error verifying payment:", error);
-      navigate("/");
+      navigate("https://frontenddeliveryapp.netlify.app/");
     }
   };
   useEffect(() => {
