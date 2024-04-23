@@ -1,0 +1,5 @@
+[[redirects]]
+  force = true
+  from = "/scripts/x.js"
+  status = 200
+  to = "https://mern-delivery-app-1.onrender.com/"
