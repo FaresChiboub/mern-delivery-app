@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Placing user order for frontend
 const placeOrder = async (req, res) => {
-  const frontend_url = "https://main--frontenddeliveryapp.netlify.app/";
+  const frontend_url = "https://frontenddeliveryapp.netlify.app/";
 
   try {
     const newOrder = new orderModel({
@@ -47,7 +47,7 @@ const placeOrder = async (req, res) => {
       success_url: `${frontend_url}/myOrders/verify?success=true&orderId=${newOrder._id}`,
       cancel_url: `${frontend_url}/verify?success=false&orderId=${newOrder._id}`,
     });
-  
+
     res.json({ success: true, session_url: session.url });
   } catch (error) {
     console.log(error);
