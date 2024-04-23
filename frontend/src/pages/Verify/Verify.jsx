@@ -15,14 +15,14 @@ const Verify = () => {
     try {
       const response = await axios.post(url + "/api/order/verify", { success, orderId });
       if (response.data.success) {
-        navigate("/myOrders");
+        navigate("/https://frontenddeliveryapp.netlify.app/myOrders");
       } else {
-        navigate("/");
+        navigate("https://frontenddeliveryapp.netlify.app/");
       }
     } catch (error) {
       console.error("Error verifying payment:", error);
       
-      navigate("/"); // Navigate to home page in case of error
+      navigate("https://frontenddeliveryapp.netlify.app/"); // Navigate to home page in case of error
     }
   };
 
