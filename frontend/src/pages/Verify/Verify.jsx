@@ -18,13 +18,13 @@ const Verify = () => {
         orderId,
       });
       if (response.data.success) {
-        navigate("/myOrders"); 
+        navigate("/myOrders");
       } else {
-        navigate("https://frontenddeliveryapp.netlify.app/");
+        navigate("/");
       }
     } catch (error) {
       console.error("Error verifying payment:", error);
-      navigate("https://frontenddeliveryapp.netlify.app/");
+      navigate("/");
     }
   };
   useEffect(() => {
