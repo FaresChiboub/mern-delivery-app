@@ -13,22 +13,23 @@ const Verify = () => {
 
   const verifyPayment = async () => {
     try {
-      const response = await axios.post(url + "/api/order/verify", { success, orderId });
+      const response = await axios.post(url + "/api/order/verify", {
+        success,
+        orderId,
+      });
       if (response.data.success) {
-        navigate("/https://frontenddeliveryapp.netlify.app/myOrders");
+        navigate("/myOrders"); // Navigate to the myOrders route
       } else {
-        navigate("https://frontenddeliveryapp.netlify.app/");
+        navigate("/"); 
       }
     } catch (error) {
       console.error("Error verifying payment:", error);
-      
-      navigate("https://frontenddeliveryapp.netlify.app/"); // Navigate to home page in case of error
+      navigate("/"); // Navigate to the home page in case of error
     }
   };
-
   useEffect(() => {
     verifyPayment();
-  }, [])
+  }, []);
 
   return (
     <div className="verify">
