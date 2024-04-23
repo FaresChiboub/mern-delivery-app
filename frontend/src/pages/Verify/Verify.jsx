@@ -18,13 +18,13 @@ const Verify = () => {
         orderId,
       });
       if (response.data.success) {
-        navigate("/myOrders"); // Navigate to the myOrders route
+        navigate("/myOrders"); 
       } else {
-        navigate("/"); 
+        navigate("/");
       }
     } catch (error) {
       console.error("Error verifying payment:", error);
-      navigate("/"); // Navigate to the home page in case of error
+      navigate("/");
     }
   };
   useEffect(() => {
