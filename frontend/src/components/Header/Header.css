@@ -1,7 +1,7 @@
 .header {
   height: 34vw;
   margin: 30px auto;
-  background: url("/heade1r_img.png");
+  background: url("/2147.jpg");
   background-size: cover;
   position: relative;
 }
@@ -12,8 +12,8 @@
   align-items: start;
   gap: 1.5vw;
   max-width: 50%;
-  bottom: 10%;
-  left: 6vw;
+  bottom:170px;
+  left: 25vw;
   animation: fadeIn 3s;
 }
 .header-contents h2 {
