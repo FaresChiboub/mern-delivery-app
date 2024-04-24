@@ -1,7 +1,5 @@
 .cart {
   margin-top: 100px;
-  ;
-  
 }
 .cart-items-title {
   display: grid;
@@ -38,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color:white
+  color: white;
 }
 .cart-total-details {
   display: flex;
@@ -49,48 +47,59 @@
   margin: 10px 0px;
   color: rgb(80, 5, 5);
 }
-.cart-total button{
-    border:none;
-    color: white;
-    background:rgb(98, 26, 14);
-    width: max(15vw,200px);
-    padding: 12px 0px;
-    border-radius: 4px;
-    cursor: pointer;
+.cart-total button {
+  border: none;
+  color: white;
+  background: rgb(98, 26, 14);
+  width: max(15vw, 200px);
+  padding: 12px 0px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.cart-promoCode{
-    flex:1
+.cart-promoCode {
+  flex: 1;
 }
-.cart-promoCode p{
-color: #fffcfc;
+.cart-promoCode p {
+  color: #ffffff;
 }
-.cart-promoCode-input{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eaeaea;
-    border-radius: 4px;
+.cart-promoCode-input {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  border-radius: 4px;
 }
-.cart-promoCode-input input{
-    background: transparent;
-    border: none;
-    outline: none;
-    padding-left: 10px;
+.cart-promoCode-input input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
 }
-.cart-promoCode-input button{
-    width: max(10vw,150px);
-    padding: 12px 5px;
-    background-color: rgb(101, 10, 10);
-    border: none;
-    color: white;
-    border-radius: 4px;
+.cart-promoCode-input button {
+  width: max(10vw, 150px);
+  padding: 12px 5px;
+  background-color: rgb(101, 10, 10);
+  border: none;
+  color: white;
+  border-radius: 4px;
 }
-@media(max-width:750px){
-    .cart-bottom{
-        flex-direction: column-reverse;
-    }
-    .cart-promoCode{
-        justify-content: start;
-    }
+.cart-promoCode-input input::placeholder {
+  color: black;
+}
+@media (max-width: 750px) {
+  .cart-bottom {
+    flex-direction: column-reverse;
+  }
+  .cart-promoCode {
+    justify-content: start;
+  }
+  img {
+    position: relative;
+    left: -15px;
+    border-radius: 10px;
+  }
 }
