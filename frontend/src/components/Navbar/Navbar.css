@@ -5,6 +5,10 @@
   align-items: center;
   
 }
+.red-icon {
+  filter: invert(18%) sepia(95%) saturate(500%) hue-rotate(344deg) brightness(97%) contrast(106%);
+}
+
 .navbar .logo {
   width: 180px;
 }
@@ -47,7 +51,7 @@
   position: absolute;
   min-width: 10px;
   min-height: 10px;
-  background-color: tomato;
+  background-color: rgb(242, 255, 3);
   border-radius: 5px;
   top: -8px;
   right: -8px;

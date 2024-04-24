@@ -1,6 +1,6 @@
 .footer {
+  position: relative;
   color: #c8480d;
-  background-color: #2b2b2b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,12 +9,26 @@
   padding-top: 0px;
   margin-top: 0px;
 }
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/Res.jpg); 
+  background-size: cover;
+  opacity: 0.4; 
+  z-index: -1; 
+}
+
+
 .footer-content {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 00px;
-  
 }
 .footer-content-left,
 .footer-content-right,
@@ -32,10 +46,13 @@
   position: relative;
   top: 80px;
   letter-spacing: 2px;
+  font-weight: 600;
+  color:rgb(255, 255, 255);
+  font-size: 22px;
 }
 .footer-content-right h2,
 .footer-content-center h2 {
-  color: white;
+  color: rgb(229, 112, 53);
   position: relative;
   top: 80px;
 }
@@ -47,7 +64,7 @@
   width: 100%;
   height: 2px;
   margin: 20px 0;
-  background-color: rgba(100, 100, 100, 0.55);
+  background-color: rgba(244, 237, 220);
   border: none;
 }
 .logo-img {
@@ -55,20 +72,22 @@
   height: 250px;
   position: relative;
   bottom: 30px;
+
 }
 .lorem {
   position: relative;
   bottom: 120px;
-  width: 350px;
+  width: 370px;
   left: 50px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   line-height: 22px;
-  color: rgb(255, 254, 254);
-  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: 500;
 }
 .footer-social-icons {
   position: relative;
-  left: 50px;
+  left: 600px;
   gap: 20px;
   display: flex;
 }
@@ -83,7 +102,6 @@
     font-size: 14px;
     gap: 10px;
     padding: 10px;
-   
   }
   .footer-copyright {
     text-align: center;
@@ -110,24 +128,24 @@
   .footer-social-icons {
     position: relative;
     left: 25px;
-    top:-130px;
+    top: -130px;
     gap: 20px;
     display: flex;
   }
   .footer-content-right h2,
-.footer-content-center h2 {
-  color: white;
-  position: relative;
-  top: -80px;
-  font-size: 15px;
-}
-.footer-content-left li,
-.footer-content-right li,
-.footer-content-center li {
-  list-style: none;
-  margin-bottom: 15px;
-  position: relative;
-  top: -80px;
-  letter-spacing: 2px;
-}
+  .footer-content-center h2 {
+    color: white;
+    position: relative;
+    top: -80px;
+    font-size: 15px;
+  }
+  .footer-content-left li,
+  .footer-content-right li,
+  .footer-content-center li {
+    list-style: none;
+    margin-bottom: 15px;
+    position: relative;
+    top: -80px;
+    letter-spacing: 2px;
+  }
 }

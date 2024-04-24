@@ -56,7 +56,7 @@ const Navbar = ({ setShowLogin }) => {
         
         <div className="navbar-search-icon">
           <Link to="/cart">
-            <img src={assets.basket_icon} alt="" />
+            <img src={assets.basket_icon} alt="" className="red-icon" />
           </Link>
           <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
         </div>
@@ -66,15 +66,15 @@ const Navbar = ({ setShowLogin }) => {
           </button>
         ) : (
           <div className="navbar-profile">
-            <img src={assets.profile_icon} alt="" />
+            <img src={assets.profile_icon} alt="" className="red-icon" />
             <ul className="nav-profile-dropdown">
               <li onClick={() => navigate("/myOrders")}>
-                <img src={assets.bag_icon} alt="" />
+                <img src={assets.bag_icon} alt="" className="red-icon" />
                 <p>Orders</p>
               </li>
               <hr />
               <li onClick={logout}>
-                <img src={assets.logout_icon} alt="" />
+                <img src={assets.logout_icon} alt="" className="red-icon" />
                 <p>Logout</p>
               </li>
             </ul>

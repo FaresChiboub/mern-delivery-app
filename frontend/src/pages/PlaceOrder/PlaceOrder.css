@@ -12,21 +12,23 @@
 .place-order-left .title {
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  color:rgb(247, 232, 231)
 }
 .place-order-left input {
   margin-bottom: 15px;
   width: 100%;
   padding: 10px;
-  border: 1px solid #c5c5c5;
+  border: 1px solid #ffffff;
   border-radius: 4px;
 }
 .place-order-left input:hover {
-  outline: 1px solid tomato;
+  outline: 1px solid rgb(252, 252, 252);
 }
 .place-order-left .multi-fields {
   display: flex;
   gap: 10px;
+  ;
 }
 .place-order-right {
   width: 100%;
@@ -34,4 +36,16 @@
 }
 .place-order .cart-total button{
  margin-top: 30px;   
+}
+input{
+  background:url(/istoc2.jpg)
+ ; color:rgb(255, 254, 254);
+  font-size: 15px;
+  position:relative;
+bottom:55px;
+
+  
+}
+input::placeholder{
+  color:rgb(255, 255, 255)
 }

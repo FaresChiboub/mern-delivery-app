@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-contents">
-        <h2>Savor Your Favorite Flavors Here</h2>
+        <h2>Feast Flavor Fun</h2>
         <p>
           Indulge in a tantalizing array of flavors, crafted with premium
           ingredients and culinary mastery. Our goal is to delight your palate

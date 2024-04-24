@@ -11,7 +11,7 @@
   gap: max(2vw, 10px);
   margin-top: 0px;
   position: relative;
-  top: -55px;
+  top: -25px;
 }
 .app-download-platforms img {
   width: max(30vw, 120px);
@@ -21,4 +21,12 @@
 }
 .app-download-platforms img:hover {
   transform: scale(1.05);
+}
+
+.app-download p {
+  color: rgb(236, 234, 234);
+  font-size: 55px;
+  position: relative;
+  bottom: 55px;
+  padding: 20px;
 }

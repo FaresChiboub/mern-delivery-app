@@ -1,5 +1,6 @@
 .cart {
   margin-top: 100px;
+  ;
   
 }
 .cart-items-title {
@@ -11,7 +12,7 @@
 }
 .cart-items-item {
   margin: 10px 0px;
-  color: black;
+  color: rgb(252, 252, 252);
 }
 .cart-items-item img {
   width: 80px;
@@ -19,7 +20,7 @@
 }
 .cart hr {
   height: 1px;
-  background-color: #e2e2e2;
+  background-color: #6c4622;
   border: none;
 }
 .cart-items-item .cross {
@@ -30,6 +31,7 @@
   display: flex;
   justify-content: space-between;
   gap: max(12vw, 20px);
+  padding: 45px;
 }
 .cart-total {
   flex: 1;
@@ -45,6 +47,7 @@
 }
 .cart-total hr {
   margin: 10px 0px;
+  color: rgb(80, 5, 5);
 }
 .cart-total button{
     border:none;
