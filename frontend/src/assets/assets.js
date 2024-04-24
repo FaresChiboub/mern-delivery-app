@@ -121,86 +121,86 @@ export const food_list = [
         _id: "1",
         name: "Greek salad",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 7,
+        description: "a delightful Greek salad bursting with Mediterranean flavors",
         category: "Salad"
     },
     {
         _id: "2",
         name: "Veg salad",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 11,
+        description: "Vibrant medley of fresh vegetables, tossed with a light vinaigrette, perfect for vegetarians",
         category: "Salad"
     }, {
         _id: "3",
         name: "Clover Salad",
         image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 13,
+        description: "A refreshing mix of tender clover leaves, paired with crunchy vegetables and a tangy dressing for a delightful salad experience.",
         category: "Salad"
     }, {
         _id: "4",
         name: "Chicken Salad",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 18,
+        description: "A hearty mix of chicken, veggies, and creamy dressing—a classic salad favorite.",
         category: "Salad"
     }, {
         _id: "5",
         name: "Lasagna Rolls",
         image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 16,
+        description: "Pasta rolls filled with meat or spinach and ricotta, baked in marinara sauce—a tasty twist on lasagna",
         category: "Rolls"
     }, {
         _id: "6",
         name: "Peri Peri Rolls",
         image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 15,
+        description: "Spicy peri peri chicken wrapped in crispy rolls—a fiery burst of flavor in every bite",
         category: "Rolls"
     }, {
         _id: "7",
         name: "Chicken Rolls",
         image: food_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 12,
+        description: "Tender chicken wrapped in crispy pastry—a savory delight for any occasion",
         category: "Rolls"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Vegetarian Rolls",
         image: food_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 13,
+        description: "Assorted vegetables wrapped in crispy pastry—a delicious vegetarian option",
         category: "Rolls"
     }, {
         _id: "9",
         name: "Ripple Ice Cream",
         image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 20,
+        description: "Rich and creamy ice cream with ripples of flavor—a delightful treat for any palate",
         category: "Deserts"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Tropical Delight Ice Cream",
         image: food_10,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Indulgent ice cream bursting with fruity goodness—a refreshing dessert choice",
         category: "Deserts"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Strawberry Bliss Ice Cream Cup",
         image: food_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 19,
+        description:"Scrumptious strawberry-flavored ice cream served in a convenient cup—a delightful treat for strawberry lovers.",
         category: "Deserts"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Vanilla Candy Dream Ice Cream",
         image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 23,
+        description:"A delightful blend of creamy vanilla ice cream swirled with sweet candy pieces—a treat that satisfies any sweet tooth.",
         category: "Deserts"
     },
     {
@@ -208,143 +208,143 @@ export const food_list = [
         name: "Chicken Sandwich",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Spiced Chicken Sandwich with Crisp Lettuce & Fries",
         category: "Sandwich"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Plant-Based Bliss Sandwich",
         image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 11,
+        description: "Delicious vegan sandwich with fresh veggies, plant-based protein, and creamy spreads on artisan bread",
         category: "Sandwich"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Grill Master Sandwich",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Enjoy the sizzle of our Grilled Sandwich, a tasty combination of perfectly toasted bread and savory fillings, crafted to perfection",
         category: "Sandwich"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Spice Stack Sandwich",
         image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 9,
+        description: "Savor our Spice Stack Sandwich: zesty spices, crisp lettuce, savory salami, and golden fries in fresh bread—a taste sensation",
         category: "Sandwich"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Sweet Bliss Cupcakes",
         image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 6,
+        description: "Indulge in our delectable cupcakes: a sweet treat for any occasion",
         category: "Cake"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Divine Cheesecake Delight",
         image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 25,
+        description: "Savor our Divine Cheesecake Delight, a heavenly creation of creamy cheese filling atop a buttery graham cracker crust, finished with a luscious fruit compote",
         category: "Cake"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Blueberry White Velvet Cake",
         image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 47,
+        description: "Indulge in our luscious white velvet cake, generously studded with juicy blueberries, delivering a burst of flavor in every bite",
         category: "Cake"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Sliced Campanula Cheese Cake ",
         image: food_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 9,
+        description: "Savor our decadent Campanula Cheese Cake, with creamy layers and a buttery crust—a slice of heaven",
         category: "Cake"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Garlic-infused Mushroom Medley",
         image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 12,
+        description: "Savor our garlic-infused mushroom medley, a tantalizing blend of savory flavors and aromatic garlic, perfect as a side dish",
         category: "Pure Veg"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Golden Cauliflower Delight",
         image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 14,
+        description: "Golden fried cauliflower florets tossed in a flavorful blend of spices for the perfect crunch.",
         category: "Pure Veg"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Lush Green Medley Salad",
         image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 17,
+        description:"A vibrant mix of fresh greens, colorful veggies, and zesty dressing for a refreshing and healthy bite.",
         category: "Pure Veg"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Zucchini Rice Medley",
         image: food_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 18,
+        description: "A harmonious blend of fluffy rice, tender zucchini, and a burst of flavors in every forkful.",
         category: "Pure Veg"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Velvety Mac 'n' Cheese Delight",
         image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 22,
+        description: "A luxurious and gooey macaroni and cheese dish that is the ultimate comfort food.",
         category: "Pasta"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Tomato Tango Pasta",
         image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 22,
+        description: "A vibrant and flavorful pasta dish featuring ripe tomatoes and fresh basil, bursting with Mediterranean sunshine in every bite",
         category: "Pasta"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Velvety White Basil Noodle ",
         image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 19,
+        description: "Indulge in a creamy and luscious noodle dish infused with rich flavor and fragrant basil",
         category: "Pasta"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Chicken Alfredo Linguine",
         image: food_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Enjoy a delectable dish of tender chicken, creamy Alfredo sauce, and perfectly cooked linguine. A sophisticated and satisfying meal that will impress your taste buds",
         category: "Pasta"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Tomato Basil Noodle Harmony",
         image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 16,
+        description:"A symphony of ripe tomatoes, aromatic basil, and al dente noodles. This elegant and delectable dish promises a culinary experience that is both refined and satisfying",
         category: "Noodles"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Scarlet Spirals",
         image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 25,
+        description: "A tantalizing blend of vibrant tomato and basil spiraled to perfection on your plate",
         category: "Noodles"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Angel Hair Delight",
         image: food_31,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A heavenly mix of Al-Dente Noodle tossed in a creamy garlic parmesan sauce and topped with fresh basil",
         category: "Noodles"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Pearly Piscine Pleasure",
         image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 21,
+        description: "A delectable and creamy blend of succulent seafood and crisp cabbage on a bed of tender noodles",
         category: "Noodles"
     }
 ]
