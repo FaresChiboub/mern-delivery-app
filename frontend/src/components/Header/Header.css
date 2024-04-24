@@ -12,13 +12,13 @@
   align-items: start;
   gap: 1.5vw;
   max-width: 50%;
-  bottom:170px;
+  bottom:40px;
   left: 25vw;
   animation: fadeIn 3s;
 }
 .header-contents h2 {
   font-weight: 500;
-  color: white;
+  color: rgb(233, 21, 21);
   font-size: max(4.5vw, 22px);
 }
 .header-contents p {
@@ -27,7 +27,7 @@
 }
 .header-contents button {
   border: none;
-  color: #747474;
+  color: #ffffff;
   font-weight: 500;
   padding: 1vw 2.3vw;
   background-color: white;
@@ -35,6 +35,7 @@
   border-radius: 50px;
   left: 6vw;
 }
+p{position:relative}
 @media (max-width: 1050px) {
   .header {
     height: 38vw;
@@ -48,9 +49,16 @@
     max-width: 45%;
   }
   .header-contents p {
-    display: none;
+    font-size: 7px;
+    position: relative;
+    top:35px
   }
   .header-contents button {
     padding: 2vw 4vw;
+  }
+  .header-contents h2{
+    font-size: 15px;
+    position: relative;
+    top:30px
   }
 }

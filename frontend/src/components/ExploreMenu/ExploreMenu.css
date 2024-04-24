@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+
 }
 .explore-menu h1 {
-  color: #262626;
+  color: #ffffff;
   font-weight: 500;
 }
 .explore-menu-text {
   max-width: 60%;
-  columns: #808080;
+  columns: #f4f4f4;
 }
 .explore-menu-list {
   display: flex;
@@ -17,6 +18,7 @@
   align-items: center;
   gap: 30px;
   text-align: center;
+  color:white;
   margin: 20px 0 px;
   overflow-x: scroll; /* Keep the horizontal scrollbar */
 }
@@ -24,7 +26,8 @@
 /* Hide the scrollbar */
 .explore-menu-list {
   scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  -ms-overflow-style: none;
+  color:white /* For Internet Explorer and Edge */
 }
 
 /* Hide scrollbar track and thumb */
@@ -36,6 +39,7 @@
 /* Hide scrollbar track and thumb for Edge */
 .explore-menu-list {
   -ms-overflow-style: none;
+  color: white;
 }
 
 .explore-menu-list-item img {
@@ -47,7 +51,7 @@
 }
 .explore-menu-list-item p {
   margin-top: 10px;
-  color: #747474;
+  color: #fdfdfd;
   font-size: max(1.4vw, 16px);
   cursor: pointer;
 }
@@ -60,6 +64,9 @@
 .explore-menu-list-item .active {
   border: 4px solid tomato;
   padding: 2px;
+}
+.explore-menu-test{
+  color:white
 }
 @media (max-width: 1050px) {
   .explore-menu-text {

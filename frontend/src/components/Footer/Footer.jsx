@@ -6,11 +6,10 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           <img className="logo-img" src={assets.logo} alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, eos,
-            consequatur quas doloremque consequuntur ipsum blanditiis dicta vel
-            facere neque, unde nisi id aperiam iure odit quis sit est
-            accusantium!
+          <p className="lorem">
+          At FastFare, we specialize in providing fast, reliable, and efficient delivery solutions tailored to meet the diverse needs of our customers. Whether you're a small business looking to streamline your logistics or an individual seeking convenient parcel delivery, we've got you covered.
+
+Our extensive network of couriers and advanced tracking systems ensures that your packages are handled with the utmost care and delivered promptly to their destination. 
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
