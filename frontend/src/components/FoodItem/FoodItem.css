@@ -5,6 +5,7 @@
   box-shadow: 0px 0px 10px #00000015;
   transition: 0.3s;
   animation: fadeIn 1.4s;
+  cursor:pointer
 }
 .food-item-image {
   width: 100%;
@@ -27,11 +28,11 @@
   width: 70px;
 }
 .food-item-desc {
-  color: #f01111;
+  color: #02d4bf;
   font-size: 15px;
 }
 .food-item-price {
-  color: rgb(243, 237, 157);
+  color: rgb(226, 18, 18);
   font-size: 22px;
   font-weight: 500;
   margin: 10px 0;
