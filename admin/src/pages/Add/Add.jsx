@@ -92,7 +92,7 @@ const Add = ({ url }) => {
               <option value="Deserts">Deserts</option>
               <option value="Sandwich">Sandwich</option>
               <option value="Cake">Cake</option>
-              <option value="Pure Veg">Pure Veg</option>
+              <option value="Plant-Powered Plates">Plant-Powered Plates</option>
               <option value="Pasta">Pasta</option>
               <option value="Noodles">Noodles</option>
             </select>
@@ -109,7 +109,7 @@ const Add = ({ url }) => {
           </div>
         </div>
         <button type="submit" className="add-btn">
-          ADD
+          Add Item
         </button>
       </form>
     </div>

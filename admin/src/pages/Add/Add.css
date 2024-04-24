@@ -9,8 +9,8 @@
   gap: 20px;
 }
 .add-img-upload img {
-  width: 200px;
-  height: 180px;
+  width: 170px;
+  height: 150px;
   border-radius: 15px;
   margin-top: 10px;
   cursor: pointer;
@@ -19,11 +19,15 @@
 .add-product-name,
 .add-product-description {
   width: max(40%, 270px);
+  color:white;
   
 }
 .add-product-name input,
 .add-product-description textarea {
   padding: 10px;
+  background:url(/istoc2.jpg);
+  background-size: cover;
+  font-size: 20px;
 }
 .add-category-price {
   display: flex;
@@ -32,16 +36,31 @@
 
 .add-category-price select,
 .add-category-price input {
-  max-width: 120px;
+  width: 200px;
+  height: 80px;
   padding: 10px;
   margin-top: 5px;
+  font-size: 22px;
+  border-radius: 10px;
+  color:white;
+  background: url(/body.jpg);
+  background-size: cover;
 }
 .add-btn {
-  max-width: 110px;
+  width: 250px;
+  height: 70px;
   border: none;
   padding: 10px;
-  background-color: black;
-  color: white;
+  background:url(/body4.jpg);
+  background-size: cover;
+  color:black;
   cursor: pointer;
-  border-radius:5px;
+  border-radius:10px;
+  position: relative;
+  left: 100px;
+  top:20px;
+  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 600;
 }
+.add-btn :hover{cursor: pointer};

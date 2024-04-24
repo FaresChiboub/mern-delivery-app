@@ -8,5 +8,8 @@
   width: max(10%, 90px);
 }
 .navbar .profile {
-  width: 50px;
+  width: 120px;
+  filter: grayscale(50%) saturate(100%) brightness(100%) hue-rotate(50deg)
+    sepia(0%) invert(0) sepia(20%) saturate(100%) saturate(0) contrast(100%);
+  color: red;
 }

@@ -266,28 +266,28 @@ export const food_list = [
         image: food_21,
         price: 12,
         description: "Savor our garlic-infused mushroom medley, a tantalizing blend of savory flavors and aromatic garlic, perfect as a side dish",
-        category: "Pure Veg"
+        category: "Plant-Powered Plates"
     }, {
         _id: "22",
         name: "Golden Cauliflower Delight",
         image: food_22,
         price: 14,
         description: "Golden fried cauliflower florets tossed in a flavorful blend of spices for the perfect crunch.",
-        category: "Pure Veg"
+        category: "Plant-Powered Plates"
     }, {
         _id: "23",
         name: "Lush Green Medley Salad",
         image: food_23,
         price: 17,
         description:"A vibrant mix of fresh greens, colorful veggies, and zesty dressing for a refreshing and healthy bite.",
-        category: "Pure Veg"
+        category: "Plant-Powered Plates"
     }, {
         _id: "24",
         name: "Zucchini Rice Medley",
         image: food_24,
         price: 18,
         description: "A harmonious blend of fluffy rice, tender zucchini, and a burst of flavors in every forkful.",
-        category: "Pure Veg"
+        category: "Plant-Powered Plates"
     },
     {
         _id: "25",

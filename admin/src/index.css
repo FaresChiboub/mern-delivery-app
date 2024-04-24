@@ -5,20 +5,24 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Outfit;
+  color: white;
 }
 
 body {
   min-height: 100vh;
-  background-color: #fcfcfc;
+  background: url(/body-4.jpg);
+  background-size: 1900x1080;
 }
 a {
   text-decoration: none;
   color: inherit;
+  background: url(/body3.jpg);
+  background-size: cover;
 }
 hr {
   border: none;
   height: 1px;
-  background-color: #a9a9a9;
+  background: white;
 }
 .app-content {
   display: flex;
@@ -30,4 +34,15 @@ hr {
 }
 .cursor {
   cursor: pointer;
+}
+select {
+  background-color: black;
+  color: rgb(5, 73, 5);
+  font-size: 16px;
+  font-weight: 600;
+}
+p{font-size: 20px;padding: 5px;}
+input{
+background:url("/body.jpg");
+background-size: cover;
 }
