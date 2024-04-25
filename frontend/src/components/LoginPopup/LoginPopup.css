@@ -5,12 +5,13 @@
   height: 100%;
   background-color: #00000090;
   display: grid;
+  color: white;
 }
 .login-popup-container {
   place-self: center;
   width: max(23vw, 330px);
-  color: #808080;
-  background-color: white;
+  color: #f9f9f9;
+  position: relative; /* Make the container relative for absolute positioning */
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -18,48 +19,87 @@
   border-radius: 8px;
   font-size: 14px;
   animation: fadeIn 0.5s;
+  background: rgba(0, 0, 0, 0.5) url("/loginBG.jpg"); /* Include the background image and transparency in one declaration */
+  background-size: cover;
 }
+
+.login-popup-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value (0.5) for the desired transparency */
+  border-radius: inherit;
+}
+
 .login-popup-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
+  color: rgba(247, 161, 161, 0);
+  z-index: 1;
+  position: relative;
+  bottom: 17px;
+  letter-spacing: 3px;
 }
 .login-popup-title img {
   width: 16px;
   cursor: pointer;
+  z-index: 1;
 }
 .login-popup-inputs {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  position: relative;
+  top: 40px;
+  z-index: 1;
 }
+
 .login-popup-inputs input {
   outline: none;
-  border: 1px solid #c9c9c9;
+  border: 1px solid #c9c9c967;
   padding: 10px;
   border-radius: 4px;
+  background: rgba(5, 3, 1, 0.423);
+  z-index: 1;
 }
 .login-popup-container button {
   border: none;
   padding: 10px;
   border-radius: 4px;
   color: white;
-  background-color: tomato;
+  background-color: rgb(210, 52, 24);
   font-size: 15px;
   cursor: pointer;
+  z-index: 1;
 }
 .login-popup-condition {
   display: flex;
   align-items: start;
   gap: 8px;
-  margin-top: -15px;
+  margin-top: -1px;
+  position: relative;
+  color: rgb(250, 199, 33);
+  font-size: 15px;
+  z-index: 1;
 }
-.login-popup-condition input{
-    margin-top: 4.5px;
+.login-popup-condition input {
+  position: relative;
+  top: 0;
+  margin-top: 0px;
+  z-index: 1;
 }
-.login-popup p span{
-    color: tomato;
-    font-weight: 500;
-    cursor: pointer;
+.login-popup p span {
+  color: rgb(82, 237, 15);
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 1;
 }
