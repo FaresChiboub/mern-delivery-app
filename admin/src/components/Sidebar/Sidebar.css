@@ -26,8 +26,14 @@
     background-color: #fff0ed;
     border-color: tomato;
 }
-@media (max-width: 900px) {
-  .sidebar-option p {
-    display: none;
+@media only screen and (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sidebar-options {
+    padding-left: 0;
   }
 }
