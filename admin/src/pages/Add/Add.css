@@ -42,9 +42,8 @@
   margin-top: 5px;
   font-size: 22px;
   border-radius: 10px;
-  color:white;
-  background: url(/body.jpg);
-  background-size: cover;
+  color:rgb(255, 255, 255);
+ background:black
 }
 .add-btn {
   width: 250px;

@@ -120,7 +120,7 @@ export const menu_list = [
 export const food_list = [
   {
     _id: "1",
-    name: "Greek salad",
+    name: "Greek Salad",
     image: food_1,
     price: 7,
     description: "a delightful Greek salad bursting with Mediterranean flavors",
@@ -128,7 +128,7 @@ export const food_list = [
   },
   {
     _id: "2",
-    name: "Veg salad",
+    name: "Vegetarians Salad",
     image: food_2,
     price: 11,
     description:
