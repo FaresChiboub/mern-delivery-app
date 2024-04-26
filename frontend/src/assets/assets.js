@@ -365,8 +365,8 @@ export const food_list = [
     image: food_28,
     price: 24,
     description:
-      "Enjoy a delectable dish of tender chicken, creamy Alfredo sauce, and perfectly cooked linguine. A sophisticated and satisfying meal that will impress your taste buds",
-    category: "Pasta",
+      "",
+    category: "Pasta",Enjoy a delectable dish of tender chicken, creamy Alfredo sauce, and perfectly cooked linguine. A sophisticated and satisfying meal that will impress your taste buds
   },
   {
     _id: "29",

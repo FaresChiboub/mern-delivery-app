@@ -14,4 +14,4 @@ export const assets = {
   parcel_icon,
 };
 
-export const url = "https://mern-delivery-app-1.onrender.com";
+export const url = "http://localhost:5001";

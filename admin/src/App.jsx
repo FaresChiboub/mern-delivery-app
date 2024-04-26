@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
-  const url = "https://mern-delivery-app-1.onrender.com";
+  const url = "http://localhost:5001";
   return (
     <div>
       <ToastContainer toastStyle={{ backgroundColor: "black"}} />
