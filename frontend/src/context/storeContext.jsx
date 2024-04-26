@@ -6,8 +6,8 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:5001";
-  const [token, setToken] = useState("");
+  const url = process.env.REACT_APP_BACKEND_URL || "http://localhost:5001";
+   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
   const addToCart = async (itemId) => {
