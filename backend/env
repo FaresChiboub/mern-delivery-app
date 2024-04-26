@@ -4,7 +4,4 @@ JWT_SECRET=zdjhezdlkje3148ef54ez5f4zefzejkhezfefzkhejfg
 
 STRIPE_SECRET_KEY= sk_test_  //create a stripe account and add your secret key !
 
-BACKEND_URL=https://mern-delivery-app-1.onrender.com
-
-PORT=4001
 

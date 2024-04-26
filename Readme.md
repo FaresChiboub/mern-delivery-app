@@ -52,3 +52,8 @@ the MERN stack delivery app is live!
 🌐 Frontend: Hosted on Netlify. Link to Frontend: https://frontenddeliveryapp.netlify.app
 
 🌐 Admin: Hosted on Netlify. Link to Admin: https://admindeliveryapp.netlify.app
+
+
+## 🧪 Testing the App:
+
+To ensure smooth testing of the app, don't forget to set up your environment variables in the backend. This includes configuring the MongoDB URL for database connection and adding your Stripe API keys for secure payment processing. Happy testing! 😊
