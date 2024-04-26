@@ -4,7 +4,7 @@ import "./Orders.css";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { assets } from "../../assets/assets";
-
+import "../../css/toastStyles.css"
 const Orders = ({ url }) => {
   const [orders, setOrders] = useState([]);
 

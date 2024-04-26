@@ -30,12 +30,12 @@ Our extensive network of couriers and advanced tracking systems ensures that you
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>+1-212-456-7890</li>
-            <li>contact@tomato.com</li>
+            <li>contact@FastFare.com</li>
           </ul>
         </div>
       </div>
       <hr/>
-      <p className="footer-copyright">Copyright 2024 &copy; Tomato.com - All Rights Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 &copy; FastFare.com - All Rights Reserved.</p>
     </div>
   );
 };

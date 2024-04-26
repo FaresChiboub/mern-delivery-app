@@ -5,13 +5,11 @@
   box-sizing: border-box;
   font-family: "Outfit";
   scroll-behavior: smooth;
-
 }
 body {
   min-height: 100vh;
-  background:url(/body.jpg);
+  background: url(/body.jpg);
   background-size: cover;
-  
 }
 a {
   text-decoration: none;
@@ -21,6 +19,7 @@ a {
   width: 80%;
   margin: auto;
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

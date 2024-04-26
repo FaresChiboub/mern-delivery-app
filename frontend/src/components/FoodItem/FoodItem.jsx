@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import PropTypes from "prop-types"; // Import PropTypes
 import "./FoodItem.css";
 import { assets } from "../../assets/assets";
 import { StoreContext } from "../../context/storeContext";
@@ -53,13 +52,5 @@ const FoodItem = ({ id, name, price, description, image }) => {
   );
 };
 
-// Define propTypes for the FoodItem component
-FoodItem.propTypes = {
-  id: PropTypes.string.isRequired, // Id should be a string and required
-  name: PropTypes.string.isRequired, // Name should be a string and required
-  price: PropTypes.number.isRequired, // Price should be a number and required
-  description: PropTypes.string.isRequired, // Description should be a string and required
-  image: PropTypes.string.isRequired, // Image should be a string (URL) and required
-};
 
 export default FoodItem;

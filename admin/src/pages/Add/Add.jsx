@@ -4,7 +4,7 @@ import "./Add.css";
 import axios from "axios";
 import { toast } from "react-toastify";
 import PropTypes from "prop-types";
-
+import "../../css/toastStyles.css"
 const Add = ({ url }) => {
   const [image, setImage] = useState(false);
   const [data, setData] = useState({

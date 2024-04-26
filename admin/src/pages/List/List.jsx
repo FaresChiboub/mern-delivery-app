@@ -3,6 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import "./List.css";
 import PropTypes from "prop-types";
+import "../../css/toastStyles.css"
 const List = ({ url }) => {
   const [list, setList] = useState([]);
 

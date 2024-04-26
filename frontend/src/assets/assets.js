@@ -123,7 +123,7 @@ export const food_list = [
     name: "Greek Salad",
     image: food_1,
     price: 7,
-    description: "a delightful Greek salad bursting with Mediterranean flavors",
+    description: "A delightful Greek salad bursting with Mediterranean flavors",
     category: "Salad",
   },
   {

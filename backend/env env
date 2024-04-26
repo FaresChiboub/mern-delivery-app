@@ -1,4 +1,0 @@
-MONGO_URL=
-PORT=
-JWT_SECRET= 
-STRIPE_SECRET_KEY=  //create a stripe account /secret key

@@ -62,6 +62,8 @@
   font-size: 22px;
   font-weight: 600;
 }
+
+
 .add-btn :hover{cursor: pointer};
 @media only screen and (max-width: 768px) {
   .add {

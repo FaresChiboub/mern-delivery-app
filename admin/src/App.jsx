@@ -11,7 +11,7 @@ const App = () => {
   const url = "https://mern-delivery-app-1.onrender.com";
   return (
     <div>
-      <ToastContainer />
+      <ToastContainer toastStyle={{ backgroundColor: "black"}} />
       <Navbar />
       <hr />
       <div className="app-content">
