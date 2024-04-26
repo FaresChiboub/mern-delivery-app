@@ -1,6 +1,6 @@
 # 🍽️ MERN Stack Delivery App
 
-Welcome to our MERN stack delivery app, where culinary convenience meets indulgence. Seamlessly blending MongoDB, Express.js, React.js, and Node.js, our app revolutionizes food delivery, offering a delightful experience from browsing to delivery.
+Welcome to the MERN stack delivery app, where culinary convenience meets indulgence. Seamlessly blending MongoDB, Express.js, React.js, and Node.js, our app revolutionizes food delivery, offering a delightful experience from browsing to delivery.
 
 ## 🚀 Features
 
