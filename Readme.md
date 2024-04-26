@@ -19,4 +19,34 @@ Welcome to our MERN stack delivery app, where culinary convenience meets indulge
 
 ## 🏁 Getting Started
 
-1. Clone the repository:
+ Clone the repository: https://github.com/FaresChiboub/mern-delivery-app
+
+## 🛠️ Backend Installation
+
+1. Navigate to the backend: `cd backend`
+2. Install dependencies: `npm i`
+3. Start the backend: `npm run server`
+
+🔄 Open another terminal tab for the frontend
+
+## 🚀 Frontend Installation
+
+1. Navigate to the frontend: `cd frontend`
+2. Install dependencies: `npm i`
+3. Start the frontend: `npm run dev`
+
+🔄 Open another terminal tab for the admin
+
+## ⚙️ Admin Installation
+
+1. Navigate to the admin: `cd admin`
+2. Install dependencies: `npm i`
+3. Start the admin: `npm run dev`
+
+🚀 Deployment
+
+the MERN stack delivery app is live!
+
+    Backend: Deployed on Render.
+    
+    Frontend: Hosted on Netlify link :https://frontenddeliveryapp.netlify.app
