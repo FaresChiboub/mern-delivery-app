@@ -47,6 +47,6 @@ Welcome to the MERN stack delivery app, where culinary convenience meets indulge
 
 the MERN stack delivery app is live!
    
-    Backend: Deployed on Render.
+Backend: Deployed on Render.
     
-    🌐 Frontend: Hosted on Netlify. Link to Frontend: https://frontenddeliveryapp.netlify.app
+🌐 Frontend: Hosted on Netlify. Link to Frontend: https://frontenddeliveryapp.netlify.app
