@@ -9,7 +9,7 @@
 body {
   min-height: 100vh;
   background: url(/body.jpg);
-  background-size: cover;
+  background-size: 2560px 1440px
 }
 a {
   text-decoration: none;
