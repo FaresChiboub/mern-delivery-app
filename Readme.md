@@ -49,4 +49,4 @@ the MERN stack delivery app is live!
 
     Backend: Deployed on Render.
     
-    Frontend: Hosted on Netlify link :https://frontenddeliveryapp.netlify.app
+    Frontend: Hosted on Netlify link: Link to Frontend: https://frontenddeliveryapp.netlify.app
