@@ -10,7 +10,10 @@ import orderRouter from "./routes/orderRoute.js";
 dotenv.config();
 
 // Accessing the environment variable for the backend URL
-const backendUrl = process.env.BACKEND_URL || 'http://localhost:5001';
+const url = process.env.NODE_ENV === 'production'
+  ? "https://mern-delivery-app-1.onrender.com"
+  : "http://localhost:5001";
+
 // App config
 const app = express();
 const PORT = process.env.PORT || 5001;

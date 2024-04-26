@@ -14,4 +14,6 @@ export const assets = {
   parcel_icon,
 };
 
-export const url = process.env.REACT_APP_BACKEND_URL||"http://localhost:5001";
+export const url = process.env.NODE_ENV === 'production'
+  ? "https://mern-delivery-app-1.onrender.com"
+  : "http://localhost:5001";
