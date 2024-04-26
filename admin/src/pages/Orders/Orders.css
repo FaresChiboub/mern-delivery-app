@@ -20,7 +20,9 @@
 .order-item-address {
   margin-bottom: 10px;
 }
-
+.order-container{
+  width: 90%;
+}
 .order-item select {
   background-color: #0d032b;
   border: 1px solid rgb(183, 183, 183);
