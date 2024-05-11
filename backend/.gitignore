@@ -2,5 +2,4 @@ MONGO_URL
 JWT_SECRET
 PORT
 STRIPE_SECRET_KEY
-.env
 node_modules
